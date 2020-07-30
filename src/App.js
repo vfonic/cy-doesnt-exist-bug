@@ -10,7 +10,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <div style={{ display: 'none'}}>Learn React</div>
+        <select name="silekt">
+          <option value="default">Default</option>
+          <option value="learn 'em all">Learn React</option>
+        </select>
         <a
           className="App-link"
           href="https://reactjs.org"
